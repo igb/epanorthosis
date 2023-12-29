@@ -22,8 +22,8 @@
 	    (while (< count slength)
 	      (setq acc (concat acc "^H"))
 	      (setq count (1+ count)))
-
-	    (print (concat selection acc " " replacement))
+	    (kill-region (region-beginning) (region-end))
+	    (insert (concat selection acc " " replacement))
 	    
 	    )
 	  )
