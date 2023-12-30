@@ -1,6 +1,10 @@
+**epanorthosis**  _noun_ <br/>
+_ep·​a·​nor·​tho·​sis -ˌnȯ(r)ˈthōsə̇s_<br/>
+: a substitution of a more emphatic word or phrase for one just preceding (as in "Most brave, nay, most heroic act!")</br>
+
+
 # Epanorthosis
 
-Emacs extension to facilitate the replacement of a word or phrase with indiciative meme-compliant UNIX/IBM/DEC text.
 Epanorthosis is an Elisp extension for the [Emacs](https://www.gnu.org/software/emacs/) text editor that enables a user to inject an [epanorthosis](https://en.wikipedia.org/wiki/Epanorthosis) using a sequence of "^H" characters to indicate an attempt to delete the previous word. The replacement word follows the sequence of "^H" spaces. This is the form of a specific retro-computing meme based on a form of epanorthosis and the (now archiaic) behavior of UNIX terminals and the varying support for delete and backspace commands by different mainframe and server vendors.
 
 #### Example of the retro computing epanorthosis meme:
