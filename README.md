@@ -1,7 +1,13 @@
 # Epanorthosis
 
 Emacs extension to facilitate the replacement of a word or phrase with indiciative meme-compliant UNIX/IBM/DEC text.
-Epanorthosis is an Elisp extension for the [Emacs](https://www.gnu.org/software/emacs/) text editor that enables a user to inject an [epanorthosis](https://en.wikipedia.org/wiki/Epanorthosis) using a sequence of "^H" characters to indicate an attempt to delete the previous word. The replacement word follows the sequence of "^H" spaces. This is the form of a specific meme based on a form of epanorthosis and the (now archiaic) behavior of UNIX terminals and the varying support for delete and backspace commands by different mainframe and server vendors. More details can be found [here](https://wooledge.org/~greg/%5EH.html).   
+Epanorthosis is an Elisp extension for the [Emacs](https://www.gnu.org/software/emacs/) text editor that enables a user to inject an [epanorthosis](https://en.wikipedia.org/wiki/Epanorthosis) using a sequence of "^H" characters to indicate an attempt to delete the previous word. The replacement word follows the sequence of "^H" spaces. This is the form of a specific retro-computing meme based on a form of epanorthosis and the (now archiaic) behavior of UNIX terminals and the varying support for delete and backspace commands by different mainframe and server vendors.
+
+#### Example of the retro computing epanorthosis meme:
+```
+I really hate^H^H^H^H don't know Python.
+```
+More details can be found [here](https://wooledge.org/~greg/%5EH.html).   
 
 ## Installation Instructions
 
