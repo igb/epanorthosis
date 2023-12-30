@@ -38,7 +38,7 @@ touch ~/.emacs; echo  '(load "/path/of/local/directory/where/file/was/saved/into
 1. In a buffer or file [select a region of text.](https://ftp.gnu.org/old-gnu/Manuals/emacs-20.7/html_chapter/emacs_12.html) that you want to "replace".
 2. Enter the Emacs command *M-x epanorthosis*.
 3. You will then be prompted to enter the "replacement" text. 
-4. After entering the "replacement" text the buffer will be updated with the "^H" sequence and the "replacement" text appended to the elected region. 
+4. After entering the "replacement" text the buffer will be updated with the "^H" sequence and the "replacement" text appended to the selected region. 
 
 
 ## Questions? ##
